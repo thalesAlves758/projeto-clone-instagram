@@ -201,6 +201,8 @@ ion-icon {
 .sidebar {
     width: 293px;
     margin-top: 23px;
+    position: fixed;
+    transform: translate(calc(935px - 293px));
 }
 
 .sidebar .profile {
