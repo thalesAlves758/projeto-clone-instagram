@@ -12,11 +12,6 @@ a {
     color: #000000;
 }
 
-.top-bar-mobile {
-    display: none;
-    width: 100%;
-}
-
 .top-bar {
     height: 54px;
     border-bottom: 1px solid #DBDBDB;
@@ -48,6 +43,11 @@ ion-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.top-bar-mobile {
+    display: none;
+    width: 100%;
 }
 
 .logo {
