@@ -1,0 +1,12 @@
+.top-bar-items {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.container {
+    width: 614px;
+}
+
+.sidebar {
+    display: none;
+}
