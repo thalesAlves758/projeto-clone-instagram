@@ -117,6 +117,7 @@ ion-icon {
 .story-box .story-user-pfp {
     width: 66px;
     height: 66px;
+    border-radius: 33px;
     background-image: url('../images/stories_background.jpg');
     background-size: cover;
     display: flex;
