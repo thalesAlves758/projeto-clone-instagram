@@ -73,6 +73,46 @@ ion-icon {
     width: 614px;
 }
 
+.stories-container {
+    height: 118px;
+    background-color: #ffffff;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.story-box {
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.story-box .story-user-pfp {
+    width: 66px;
+    height: 66px;
+    background-image: url('../images/stories_background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-box img {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.story-box .story-user-username {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
 .posts {
     margin-top: 24px;
 }
@@ -80,11 +120,11 @@ ion-icon {
 .post {
     margin-bottom: 60px;
     border: 1px solid #DBDBDB;
+    background-color: #ffffff;
 }
 
 .post-top {
     height: 61px;
-    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
