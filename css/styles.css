@@ -8,6 +8,10 @@ body {
     align-items: center;
 }
 
+a {
+    color: #000000;
+}
+
 .top-bar {
     height: 54px;
     border-bottom: 1px solid #DBDBDB;
@@ -67,6 +71,7 @@ ion-icon {
     margin-top: 88px;
     width: 935px;
     display: flex;
+    justify-content: space-between;
 }
 
 .posts-column {
@@ -191,4 +196,108 @@ ion-icon {
 
 .post-likes h3 strong {
     font-weight: 500;
+}
+
+.sidebar {
+    width: 293px;
+    margin-top: 23px;
+}
+
+.sidebar .profile {
+    display: flex;
+}
+
+.profile-picture img {
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+}
+
+.profile-info {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.profile-info h2 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.profile-info h3 {
+    font-weight: 300;
+}
+
+.suggestions {
+    margin-top: 24px;
+    /* border: 1px solid red; */
+}
+
+.suggestions-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+}
+
+.suggestions-top h2 {
+    color: #8E8E8E;
+}
+
+.suggestions-top h3 {
+    color: #262626;
+}
+
+.suggestion {
+    margin: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.suggestion img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.suggestion-info {
+    display: flex;
+    align-items: center;
+}
+
+.suggestion-user {
+    margin-left: 10px;
+}
+
+.suggestion-user h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #262626;
+}
+
+.suggestion-user h3 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top: 5px;
+}
+
+.suggestion .follow-button {
+    font-weight: 500;
+    font-size: 12px;
+    color: #139EF2;
+}
+
+.sidebar .links,
+.sidebar .copyright {
+    margin-top: 26px;
+    font-weight: 400;
+    color: #C7C7C7;
+    font-size: 11px;
+    line-height: 12.89px;
 }
