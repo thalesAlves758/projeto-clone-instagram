@@ -1,0 +1,27 @@
+.top-bar-items,
+.stories-container .right-arrow {
+    display: none;
+}
+
+.top-bar-mobile,
+.bottom-bar-mobile {
+    display: flex;
+}
+
+.container {
+    margin-top: 62px;
+}
+
+.container,
+.posts {
+    width: 100%;
+}
+
+.stories-container {
+    background-color: inherit;
+    border: none;
+}
+
+.posts {
+    margin-top: 2px;
+}
