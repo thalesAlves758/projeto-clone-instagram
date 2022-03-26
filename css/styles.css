@@ -177,9 +177,10 @@ ion-icon {
     font-weight: 500;
 }
 
-.post-image img {
+.post-midia img,
+.post-midia video {
     width: 100%;
-    height: 612px;
+    max-height: 612px;
     object-fit: cover;
 }
 
