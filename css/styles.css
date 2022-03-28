@@ -188,8 +188,8 @@ ion-icon {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 76px;
-    padding: 10px 18px;
+    min-height: 76px;
+    /* padding: 10px 15px; */
 }
 
 .post-buttons {
@@ -203,9 +203,14 @@ ion-icon {
     justify-content: space-between;
 }
 
+.post-interactions {
+    padding: 10px 15px;
+}
+
 .post-likes {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .post-likes img {
@@ -221,6 +226,63 @@ ion-icon {
 
 .post-likes h3 strong {
     font-weight: 500;
+}
+
+.post-comments {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.post-comments h3 {
+    color: #8e8e8e;
+}
+
+.post-comments .comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-comments .comment ion-icon {
+    font-size: 12px;
+}
+
+.post-comments .comment p {
+    margin-top: 5px;
+    color: #262626;
+}
+
+.post-comments .comment p .username {
+    font-weight: 500;
+}
+
+.add-comment {
+    padding: 6px 15px;
+    border-top: 1px solid #EFEFEF;
+    display: flex;
+    height: 50px;
+}
+
+.add-comment input {
+    width: 100%;
+    margin-right: 10px;
+    outline: none;
+    border: 0;
+}
+
+.add-comment button {
+    color: #B2DFFC;
+    background-color: inherit;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.add-comment button:hover {
+    cursor: pointer;
+    color: #0095F6;
+    transition: 300ms;
 }
 
 .sidebar {
