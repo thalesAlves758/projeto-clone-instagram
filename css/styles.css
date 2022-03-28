@@ -242,6 +242,7 @@ ion-icon {
 .post-comments .comment {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .post-comments .comment ion-icon {
